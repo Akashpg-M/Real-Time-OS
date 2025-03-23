@@ -10,7 +10,6 @@ void blinkLED() {
 }
 
 void readSensor() {
-    // Replace with actual sensor code
     int sensorValue = analogRead(A0);
     Serial.println(sensorValue);
     delay(1000);
